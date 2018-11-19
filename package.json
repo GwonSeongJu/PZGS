@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/GwonSeongJu/PZGS/issues"
   },
-  "homepage": "https://github.com/GwonSeongJu/PZGS#readme"
+  "homepage": "https://github.com/GwonSeongJu/PZGS#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "path": "^0.12.7"
+  }
 }
