@@ -4,13 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon index.js",
+    "start" : "nohup node index.js >pzgs_web.log 2>>pzgs_web.err &",
+    "pm2" : "pm2 start index.js --name PZGS_WEB"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/GwonSeongJu/PZGS.git"
-  },
-  "author": "",
+  "repository": "git+https://github.com/GwonSeongJu/PZGS.git",
+  "author": "GwonSeongJu",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/GwonSeongJu/PZGS/issues"
@@ -20,5 +19,9 @@
     "ejs": "^2.6.1",
     "express": "^4.16.4",
     "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0",
+    "prettier": "^1.17.0"
   }
 }
