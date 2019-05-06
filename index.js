@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-var path     = require('path');
+const path     = require('path');
 
 
 //view engine

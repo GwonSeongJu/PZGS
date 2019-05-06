@@ -6,11 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/GwonSeongJu/PZGS.git"
-  },
-  "author": "",
+  "repository": "git+https://github.com/GwonSeongJu/PZGS.git",
+  "author": "Cellularhacker <wva3cdae@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/GwonSeongJu/PZGS/issues"
